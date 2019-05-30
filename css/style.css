@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+	padding: 0;
+	border: none;
+	outline: none;
+}
+
+body{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:13px;
+	line-height:1.5em;
+	color:#F9F;
+	background-color:#96F
+}
+
+.clearfix{
+	clear:both;
+}
+
+#container{
+	width:330px;
+	min-height:400px;
+	background:#99F;
+	overflow:auto;
+	margin:60px auto;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	border-radius:10px;
+	border:#30F solid 2px;
+}
+
+#audio-image{
+	position:relative;
+	overflow:hidden;
+	height:200px;
+	margin-bottom:15px;
+}
+
+#audio-info{
+	text-align:center;
+}
+
+#audio-info .artist{
+	font-weight:bold;
+}
+
+cover{
+	width:100%;
+	z-index:1;
+}
+
+input#volume {
+	width:95%;
+	margin-left:2%;
+	-webkit-appearance: none !important;
+	background:#C3C;
+	height:1px;
+	margin-bottom:20px;
+}
+
+
+#buttons{
+	width:90%;
+	display:block;
+	margin: 15px auto;
+	margin-left:23px;
+	overflow:auto;
+}
+
+button#play{
+	width:70px;
+	height:70px;
+	background:url(../images/play.png) nono-repeat;float:left;
+}
+
+button#pause{
+	width:70px;
+	height:70px;
+	background:url(../images/pause.png) nono-repeat;float:left;
+}
+
+button#stop{
+	width:70px;
+	height:70px;
+	background:url(../images/stop.png) nono-repeat;float:left;
+}
+
+
+#playlist{
+	list-style-type: none;
+	padding:10px;
+}
+
+#playlist li{
+	cursor: pointer;
+	margin:5px;
+}
+
+#tracker{
+	position:relative;
+	width:100%;
+}
